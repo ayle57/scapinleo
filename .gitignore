@@ -4,6 +4,7 @@
 
 # Remove dependencies folders
 node-modules
+node_modules
 
 # Env files
 .env
