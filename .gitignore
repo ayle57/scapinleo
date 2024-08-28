@@ -1,0 +1,6 @@
+
+# Remove base directories
+.idea
+
+# Remove dependencies folders
+node-modules
