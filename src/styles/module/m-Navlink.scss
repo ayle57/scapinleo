@@ -1,0 +1,23 @@
+
+li.Navbar-item {
+  display: inline-block;
+
+  a.Navbar-link {
+    color: $medium_white;
+    font-weight: 500;
+    transition: color $df_duration;
+
+    &:hover {
+      color: darken($greeny_yellow, 10);
+
+      svg {
+        color: darken($greeny_yellow, 10);
+      }
+    }
+
+    svg {
+      transition: color $df_duration;
+      color: $greeny_yellow;
+    }
+  }
+}

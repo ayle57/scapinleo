@@ -1,0 +1,88 @@
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 5rem;
+
+  a.Navbar-brand {
+    flex: 0 0 35%;
+    max-width: 35%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    transition: color $df_duration;
+
+    gap: 0 5px;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    color: $medium_white;
+
+    span {
+      transition: color $df_duration;
+      color: $greeny_yellow;
+      font-weight: 800;
+    }
+
+    &:hover {
+      color: darken($medium_white, 20);
+
+      span {
+        color: darken($greeny_yellow, 10);
+      }
+    }
+  }
+
+  nav.Navbar-links {
+    flex: 0 0 65%;
+    max-width: 65%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+      flex: 0 0 75%;
+      max-width: 75%;
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .Navbar-button {
+      flex: 0 0 25%;
+      max-width: 25%;
+
+      a {
+        background: $dark_purple;
+        border-color: $dark_purple;
+        color: $medium_white;
+
+        svg {
+          color: $greeny_yellow;
+        }
+
+        &:hover {
+          color: $greeny_yellow;
+        }
+
+        &.scrolled {
+          background: $greeny_yellow;
+          border-color: $greeny_yellow;
+          color: $dark_purple;
+
+          svg {
+            color: $dark_purple;
+          }
+        }
+      }
+    }
+
+  }
+}

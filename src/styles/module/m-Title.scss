@@ -1,0 +1,19 @@
+
+.title {
+  position: relative;
+  padding-left: 20px;
+  line-height: 1;
+  margin-bottom: 2.5rem;
+  color: $medium_white;
+
+  &::before {
+    content: '';
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 4px;
+    background: $greeny_yellow;
+  }
+}

@@ -1,0 +1,38 @@
+
+section.section.AboutSection div.AboutSection-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 100vh;
+  padding: 10vh 5vw;
+
+  div.AboutSection-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div.AboutSection-content {
+      flex: 0 0 40%;
+      max-width: 40%;
+
+      h2 {
+        font-size: 50px;
+        margin-bottom: 5px;
+      }
+      p {
+        line-height: 1.7;
+        font-size: 17px;
+        margin-bottom: 24px;
+      }
+    }
+
+    div.AboutSection-image {
+      flex: 0 0 60%;
+      max-width: 60%;
+
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

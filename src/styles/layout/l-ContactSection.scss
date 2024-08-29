@@ -1,0 +1,80 @@
+section.section.ContactSection div.ContactSection-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 100vh;
+  padding: 10vh 5vw;
+
+  div.ContactSection-container {
+    display: flex;
+    flex-direction: column;
+
+    button {
+      cursor: pointer;
+    }
+
+    .col {
+      display: flex;
+    }
+
+    .form-group {
+      width: 100%;
+      margin-bottom: 20px;
+
+      .form-control {
+        -webkit-box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.05);
+        box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.05);
+        width: 100%;
+
+        padding: 15px 25px;
+
+        font-size: 19px;
+        font-family: $df_font_family;
+
+        border-radius: $df_border_radius;
+        background: $dark_blue;
+        border: 1px solid $dark_blue;
+
+        color: $medium_white;
+
+        &:active, &:focus {
+          outline: none;
+          border-color: $greeny_yellow;
+        }
+
+        &:first-of-type {
+          width: calc(100% - 10px);
+        }
+      }
+
+      .form-area {
+        -webkit-box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.05);
+        box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.05);
+        width: calc(100% - 10px);
+        min-width: calc(100% - 10px);
+        max-width: calc(100% - 10px);
+
+        color: $medium_white;
+
+        height: 100px;
+        max-height: 700px;
+        min-height: 100px;
+
+        padding: 15px 25px;
+
+        font-size: 19px;
+        font-family: $df_font_family;
+
+        border-radius: $df_border_radius;
+        background: $dark_blue;
+        border: 1px solid $dark_blue;
+
+        &:first-of-type {
+          width: calc(100% - 10px);
+        }
+      }
+    }
+
+  }
+}

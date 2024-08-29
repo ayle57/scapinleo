@@ -1,0 +1,28 @@
+.btn {
+  font-size: 17px;
+
+  display: inline-flex;
+  align-items: center;
+
+  padding: 0.675rem 1.715rem;
+  font-weight: 600;
+  border: 2px solid;
+  border-radius: $df_border_radius;
+  transition: transform $df_duration, color $df_duration;
+
+  &:hover.btn-primary {
+    transform: scale(0.98);
+    color: $medium_white;
+  }
+
+  &.btn-primary {
+    border-color: $greeny_yellow;
+    background: $greeny_yellow;
+    color: $dark_purple;
+  }
+
+  &.btn-phantom {
+    color: $greeny_yellow;
+    border-color: $greeny_yellow;
+  }
+}

@@ -1,0 +1,27 @@
+
+// --- Normalize CSS
+body {
+  font: {
+    family: $df_font_family;
+    weight: $df_font_weight;
+    size: $df_font_size;
+    style: $df_font_style;
+  };
+  color: $medium_white;
+  background-color: $dark_purple;
+}
+
+$h1-size: 5.375rem;
+$size-decrementation: 0.8rem;
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: $h1-size - ($i - 1) * $size-decrementation;
+    color: $greeny_yellow;
+    line-height: 1.6;
+  }
+}
+
+p {
+  line-height: 1.5;
+}

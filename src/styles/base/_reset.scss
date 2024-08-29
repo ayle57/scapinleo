@@ -1,0 +1,21 @@
+
+// --- Reset CSS
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  margin: 0;
+  list-style: $df_text_decoration;
+}
+
+ul,ol,li {
+  list-style: $df_text_decoration;
+}
+
+a {
+  text-decoration: $df_text_decoration;;
+}

@@ -1,0 +1,59 @@
+
+section.section.LandingSection div.LandingSection-inner {
+  height: calc(80vh);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  div.LandingSection-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    div.LandingSection-content {
+      flex: 0 0 55%;
+      max-width: 55%;
+
+      padding: 0 25px;
+
+      h1 {
+        line-height: 1.2;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 19px;
+        line-height: 2;
+        margin-bottom: 20px;
+      }
+    }
+
+    div.LandingSection-image {
+      flex: 0 0 45%;
+      max-width: 45%;
+
+      display: flex;
+      align-items: center;
+
+      height: 100%;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 22%;
+        height: 100vh;
+        background: $greeny_yellow;
+        z-index: -1;
+      }
+
+      img {
+        width: 35rem;
+        border-radius: $df_border_radius;
+      }
+    }
+  }
+}

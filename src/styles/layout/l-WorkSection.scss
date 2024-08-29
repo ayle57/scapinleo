@@ -1,0 +1,65 @@
+section.section.WorkSection div.WorkSection-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 100vh;
+  padding: 10vh 5vw;
+
+  div.WorkSection-container {
+
+    div.WorkSection-brands {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+
+      img {
+        width: 100%;
+        border-radius: $df_border_radius;
+        transition: transform $df_duration;
+        -webkit-box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.05);
+        box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.05);
+
+        &:hover {
+          transform: scale(0.99);
+        }
+      }
+    }
+
+    div.WorkSection-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+      margin-top: 10vh;
+
+      div.card {
+        -webkit-box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.05);
+        box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.05);
+        background-color: $dark_blue;
+        padding: 25px 20px;
+        border-radius: $df_border_radius;
+
+        svg {
+          font-size: 28px;
+          color: $greeny_yellow;
+          margin-bottom: 10px;
+        }
+
+        h6 {
+          color: $medium_white;
+          font-size: 26px;
+        }
+
+        p {
+          color: #e7e7e7;
+        }
+      }
+    }
+
+  }
+
+}
