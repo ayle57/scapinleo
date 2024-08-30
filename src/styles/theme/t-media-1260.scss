@@ -1,0 +1,23 @@
+@media screen and (max-width: 1260px) {
+  section.section.LandingSection div.LandingSection-inner div.LandingSection-container {
+    div.LandingSection-content h1 {
+      font-size: 2rem;
+    }
+    div.LandingSection-image img {
+      width: 80%;
+    }
+  }
+  header.Navbar {
+    a.Navbar-brand {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+    nav.Navbar-links {
+      flex: 0 0 80%;
+      max-width: 80%;
+      ul {
+        margin-right: 2.5rem;
+      }
+    }
+  }
+}

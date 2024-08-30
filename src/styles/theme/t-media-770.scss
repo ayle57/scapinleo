@@ -1,0 +1,50 @@
+@media screen and (max-width: 770px) {
+  section.section.LandingSection div.LandingSection-inner {
+    height: 100vh;
+
+    div.LandingSection-container {
+      margin-top: 5vh;
+      flex-direction: column;
+
+      div.LandingSection-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+      div.LandingSection-image {
+        img { display: none }
+      }
+    }
+  }
+
+  section.section.WorkSection div.WorkSection-inner {
+    margin-top: 20vh;
+    div.WorkSection-container div.WorkSection-cards {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  section.section.AboutSection div.AboutSection-inner {
+    margin-top: 10vh;
+  }
+
+  footer.section.FooterSection {
+    flex-direction: column;
+
+    ul {
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+      min-width: 100% !important;
+      text-align: center !important;
+      margin-bottom: 20px;
+
+      li {
+        width: 100%;
+      }
+    }
+  }
+}

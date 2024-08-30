@@ -26,33 +26,35 @@ const Navbar = () => {
         }
     }, [])
 
-    return <header className="Navbar">
-        <a href="" className="Navbar-brand">
-            <span>Scapin</span> Léo
+    return <header className="Navbar reveal">
+        <a href="/" className="Navbar-brand">
+            <p className="reveal-1">
+                <span>Scapin</span> Léo
+            </p>
         </a>
         <nav className="Navbar-links">
             <ul>
-                <li className="Navbar-item">
-                    <a href="#" className="Navbar-link">
+                <li className="Navbar-item reveal-2">
+                    <a href="#services" className="Navbar-link">
                         <FontAwesomeIcon icon={faBoxOpen} className="icon"/>
                         Mes Services
                     </a>
                 </li>
-                <li className="Navbar-item">
-                    <a href="#" className="Navbar-link">
+                <li className="Navbar-item reveal-3">
+                    <a href="#portfolio" className="Navbar-link">
                         <FontAwesomeIcon icon={faBriefcase} className="icon"/>
                         Portfolio
                     </a>
                 </li>
-                <li className="Navbar-item">
-                    <a href="#" className="Navbar-link">
+                <li className="Navbar-item reveal-4">
+                    <a href="#about" className="Navbar-link">
                         <FontAwesomeIcon icon={faUser} className="icon"/>
                         À Propos de moi
                     </a>
                 </li>
             </ul>
-            <div className="Navbar-button">
-                <a href="#" className="btn btn-primary">
+            <div className="Navbar-button reveal-5">
+                <a href="#contact" className="btn btn-primary">
                     <FontAwesomeIcon icon={faPhone} className="icon"/>
                     Me contacter
                 </a>

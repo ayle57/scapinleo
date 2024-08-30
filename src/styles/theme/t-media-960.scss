@@ -1,0 +1,48 @@
+@media screen and (max-width: 960px) {
+  header.Navbar {
+    padding: 20px 1.5rem;
+
+    a.Navbar-brand {
+      flex: 0 0 10%;
+      max-width: 10%;
+    }
+
+    nav.Navbar-links {
+      flex: 0 0 90%;
+      max-width: 90%;
+      ul {
+        margin-right: 1.5rem;
+      }
+    }
+  }
+
+  section.section.ServicesSection div.ServicesSection-inner {
+    margin-top: 20vh;
+    height: auto;
+    div.ServicesSection-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      div.ServicesSection-item {
+        margin-bottom: 5vh;
+      }
+    }
+  }
+
+  section.section.AboutSection div.AboutSection-inner {
+    div.AboutSection-container {
+      display: flex;
+      flex-direction: column;
+
+      div.AboutSection-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+      div.AboutSection-image {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px) {
+  header.Navbar nav.Navbar-links {
+    display: none;
+  }
+
+  section.section.LandingSection div.LandingSection-inner div.LandingSection-container div.LandingSection-image {
+    display: none;
+  }
+
+  section.section.WorkSection div.WorkSection-inner {
+    height: 250vh;
+
+    div.WorkSection-container div.WorkSection-brands {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  section.section.ExplainSection div.ExplainSection-inner {
+    height: 200vh;
+    div.ExplainSection-container div.ExplainSection-circle {
+      display: flex;
+      flex-direction: column;
+      padding: 0 5rem;
+    }
+  }
+}

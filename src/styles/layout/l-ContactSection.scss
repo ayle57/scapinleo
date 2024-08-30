@@ -1,3 +1,9 @@
+p.success {
+  color: $medium_green;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
 section.section.ContactSection div.ContactSection-inner {
   display: flex;
   flex-direction: column;
@@ -14,6 +20,57 @@ section.section.ContactSection div.ContactSection-inner {
       cursor: pointer;
     }
 
+    .form-checkbox {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 2.5vh;
+
+      label {
+        line-height: 1.8
+      }
+
+      input[type="checkbox"] {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 26px;
+        height: 20px;
+        border: 2px solid $greeny_yellow;
+        border-radius: 50%;
+        background-color: $dark_blue;
+        cursor: pointer;
+        position: relative;
+
+        &:checked {
+          background-color: $greeny_yellow;
+          border-color: $greeny_yellow;
+          &:after {
+            border-color: $dark_blue;
+          }
+        }
+
+        &:after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 4px;
+          height: 9px;
+          border: solid white;
+          border-width: 0 2px 2px 0;
+          transform: translate(-50%, -50%) rotate(45deg);
+        }
+      }
+    }
+
+
+    label {
+      margin-left: 5px;
+
+      a {
+        color: $greeny_yellow;
+      }
+    }
+
     .col {
       display: flex;
     }
@@ -23,8 +80,8 @@ section.section.ContactSection div.ContactSection-inner {
       margin-bottom: 20px;
 
       .form-control {
-        -webkit-box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.05);
-        box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.05);
+        -webkit-box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.05);
+        box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.05);
         width: 100%;
 
         padding: 15px 25px;
@@ -49,17 +106,17 @@ section.section.ContactSection div.ContactSection-inner {
       }
 
       .form-area {
-        -webkit-box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.05);
-        box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.05);
+        -webkit-box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.05);
+        box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.05);
         width: calc(100% - 10px);
         min-width: calc(100% - 10px);
         max-width: calc(100% - 10px);
 
         color: $medium_white;
 
-        height: 100px;
+        height: 200px;
         max-height: 700px;
-        min-height: 100px;
+        min-height: 200px;
 
         padding: 15px 25px;
 

@@ -1,0 +1,25 @@
+@media screen and (max-width: 860px) {
+  header.Navbar {
+    flex-direction: column;
+    a.Navbar-brand {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    nav.Navbar-links {
+      display: inline-flex;
+      flex: 0 0 100%;
+      min-width: 100%;
+      max-width: 100%;
+      ul {
+        margin-right: 1rem;
+      }
+      div.Navbar-button a.btn.btn-primary {
+        background: none;
+        border: none;
+        svg {
+          color: $dark_purple;
+        }
+      }
+    }
+  }
+}

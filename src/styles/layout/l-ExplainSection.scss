@@ -20,7 +20,7 @@ section.section.ExplainSection div.ExplainSection-inner {
       &::after {
         content: '';
         position: absolute;
-        width: 70%;
+        width: 80%;
         height: 3px;
         background-color: $greeny_yellow;
         top: 0;
@@ -29,14 +29,21 @@ section.section.ExplainSection div.ExplainSection-inner {
       &::before {
         content: '';
         position: absolute;
-        width: 70%;
+        width: 80%;
         height: 3px;
         background-color: $greeny_yellow;
         bottom: 0;
       }
 
       a img {
-        width: 100%;
+        min-width: 200px;
+        width: 200px;
+        max-width: 200px;
+        min-height: 200px;
+        height: 200px;
+        max-height: 200px;
+        border-radius: 50%;
+        background: #fff;
       }
     }
 

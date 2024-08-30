@@ -1,0 +1,14 @@
+@media screen and (max-width: 400px) {
+  section.section.ContactSection div.ContactSection-inner div.ContactSection-container form div.col {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 14px;
+  }
+}

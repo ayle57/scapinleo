@@ -1,0 +1,42 @@
+.reveal [class*="reveal-"] {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.reveal-visible [class*="reveal-"] {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1000ms cubic-bezier(.5, 0, 0, 1);
+}
+
+
+.reveal-visible .reveal-1  {
+  transition-delay: .1s;
+}
+.reveal-visible .reveal-2 {
+  transition-delay: .2s;
+}
+.reveal-visible .reveal-3 {
+  transition-delay: .3s;
+}
+.reveal-visible .reveal-4 {
+  transition-delay: .4s;
+}
+.reveal-visible .reveal-5 {
+  transition-delay: .5s;
+}
+.reveal-visible .reveal-6 {
+  transition-delay: .6s;
+}
+.reveal-visible .reveal-7 {
+  transition-delay: .7s;
+}
+.reveal-visible .reveal-8 {
+  transition-delay: .8s;
+}
+.reveal-visible .reveal-9 {
+  transition-delay: .9s;
+}
+.reveal-visible .reveal-10 {
+  transition-delay: .10s;
+}

@@ -11,7 +11,7 @@ section.section.WorkSection div.WorkSection-inner {
     div.WorkSection-brands {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2, 1fr);
+      grid-template-rows: repeat(1, 1fr);
       grid-column-gap: 20px;
       grid-row-gap: 20px;
 
@@ -51,7 +51,7 @@ section.section.WorkSection div.WorkSection-inner {
 
         h6 {
           color: $medium_white;
-          font-size: 26px;
+          font-size: 24px;
         }
 
         p {
